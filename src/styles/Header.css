@@ -1,0 +1,60 @@
+/* src/styles/Header.css */
+.header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 80px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .header-right {
+    margin-right: 200px; /* Esto moverá el contenido a la derecha */
+  }
+  
+  .header-list {
+    padding: 10px;
+  }
+
+  .header-item {
+    padding: 8px;
+  }
+
+  .header-link {
+    padding: 10px;
+  }
+
+
+  
