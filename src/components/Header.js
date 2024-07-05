@@ -6,19 +6,24 @@ import '../styles/Header.css';
 const Header = () => {
     return (
         <header className="header">
-            <div className="header-left">
-                <Link to="/">
-                    <img src={`${process.env.PUBLIC_URL}/img/logoXV2.png`} alt="Logo" class="logo"></img>
-                </Link>
-                <h1 href="#home">React APP</h1>
+            <div className="container">
+                <div class="logo">
+                    <Link to="/">
+                        <img src={`${process.env.PUBLIC_URL}/img/logoXV2.png`} alt="Logo" class="logo"></img>
+                    </Link>
+                    <h1 href="#">React APP XV</h1>
+                </div>
+                <div class="button">
+                    <label for="btn-menu">Menú</label>
+                </div>
+                <input type="checkbox" id="btn-menu"></input>
+                <nav class="menu">
+                    <a href="/">Inicio</a>
+                    <a href="#about">Sobre Nosotros</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contacto</a>
+                </nav>
             </div>
-            <nav class="header-right">
-                <ul class="header-list">
-                    <li class="header-item"><a class="header-link" href="#home">Inicio</a></li>
-                    <li class="header-item"><a class="header-link" href="#about">Acerca de</a></li>
-                    <li class="header-item"><a class="header-link" href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
         </header>
 
     );

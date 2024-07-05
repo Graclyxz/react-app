@@ -1,0 +1,11 @@
+/* src/components/MainContent.css */
+.main-content {
+  padding: 10rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contentddd {
+  padding-top: 80px;
+  /* Agrega suficiente relleno para no ocultar el contenido */
+}
